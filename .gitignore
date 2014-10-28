@@ -1,0 +1,26 @@
+.DS_Store
+.bundle
+.settings
+db/*.sqlite3
+/db/*.sqlite3-journal
+log/*
+tmp/**/*
+tmp
+coverage
+bin/
+.sass-cache/
+public/uploads
+public/assets
+dist/
+worklog
+
+# Text editors backup files
+*~
+*.swo
+*.swp
+.floo
+.flooignore
+*.sublime-project
+*.sublime-workspace
+.tags
+.vagrant
