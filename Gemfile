@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+gem "devise" # Authentication
 gem "active_type" # PlainModel from GrowingRails book
 
 group :development do
@@ -47,7 +48,7 @@ group :test do
   # Pretty printed test output
   # gem "ansi", "~> 1.3.0"
   # gem "launchy", "~> 2.4"
-  # gem "poltergeist", "~> 1.5.1"
+  gem "poltergeist", "~> 1.5.1"
   # gem "simplecov", "0.7.1", :require => false # Code Coverage
 end
 
