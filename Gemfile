@@ -23,9 +23,22 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
-
+group :development do
+  gem "magic_encoding" # Run 'magic_encoding' from the shell to generate utf8 line at rb files
+  gem "bullet"
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "spring" # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  # gem "foreman"
+  # gem "thin"
+  # gem "rails-boilerplate"
+  # gem "html2slim"
+  # gem "guard-livereload", require: false
+  # gem "rack-livereload"
+  # gem "rb-fsevent", require: false
+  # gem "rack-mini-profiler"
+  # gem "kss-rails"
+end
 
 group :test do
   gem "database_cleaner"
