@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+gem "active_type" # PlainModel from GrowingRails book
+
 group :development do
   gem "magic_encoding" # Run 'magic_encoding' from the shell to generate utf8 line at rb files
   gem "bullet"
